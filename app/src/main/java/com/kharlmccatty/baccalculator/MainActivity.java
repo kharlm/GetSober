@@ -277,126 +277,7 @@ public class MainActivity extends AppCompatActivity {
                 mCountDownTimer.start();
                 //mcountDownTimer.cancel();
 
-/*
 
-                mbeer.addTextChangedListener(new TextWatcher() {
-
-                    public void afterTextChanged(Editable s) {
-                        getBac();
-                        mbac.setText(bac());
-                    }
-
-                    public void beforeTextChanged(CharSequence s, int start,
-                                                  int count, int after) {
-                    }
-
-                    public void onTextChanged(CharSequence s, int start,
-                                              int before, int count) {
-                        getBac();
-                        mbac.setText(bac());
-                        //Field2.getText().clear();
-                    }
-                });
-
-                mwine.addTextChangedListener(new TextWatcher() {
-
-                    public void afterTextChanged(Editable s) {
-                        getBac();
-                        mbac.setText(bac());
-
-                    }
-
-                    public void beforeTextChanged(CharSequence s, int start,
-                                                  int count, int after) {
-                    }
-
-                    public void onTextChanged(CharSequence s, int start,
-                                              int before, int count) {
-                        getBac();
-                        mbac.setText(bac());
-                        //Field2.getText().clear();
-                    }
-                });
-                mshot.addTextChangedListener(new TextWatcher() {
-
-                    public void afterTextChanged(Editable s) {
-                        getBac();
-                        mbac.setText(bac());
-
-                    }
-
-                    public void beforeTextChanged(CharSequence s, int start,
-                                                  int count, int after) {
-                    }
-
-                    public void onTextChanged(CharSequence s, int start,
-                                              int before, int count) {
-                        getBac();
-                        mbac.setText(bac());
-                        //Field2.getText().clear();
-                    }
-                });
-                mother.addTextChangedListener(new TextWatcher() {
-
-                    public void afterTextChanged(Editable s) {
-                        getBac();
-                        mbac.setText(bac());
-
-                    }
-
-                    public void beforeTextChanged(CharSequence s, int start,
-                                                  int count, int after) {
-                    }
-
-                    public void onTextChanged(CharSequence s, int start,
-                                              int before, int count) {
-                        getBac();
-
-                        mbac.setText(bac());
-                        //Field2.getText().clear();
-                    }
-                });
-                mweight.addTextChangedListener(new TextWatcher() {
-
-                    public void afterTextChanged(Editable s) {
-                        getBac();
-                        mbac.setText(bac());
-
-                    }
-
-                    public void beforeTextChanged(CharSequence s, int start,
-                                                  int count, int after) {
-                    }
-
-                    public void onTextChanged(CharSequence s, int start,
-                                              int before, int count) {
-                        getBac();
-
-                        mbac.setText(bac());
-                        //Field2.getText().clear();
-                    }
-                });
-                mhours.addTextChangedListener(new TextWatcher() {
-
-                    public void afterTextChanged(Editable s) {
-                        getBac();
-                        mbac.setText(bac());
-
-                    }
-
-                    public void beforeTextChanged(CharSequence s, int start,
-                                                  int count, int after) {
-                    }
-
-                    public void onTextChanged(CharSequence s, int start,
-                                              int before, int count) {
-                        getBac();
-
-                        mbac.setText(bac());
-                        //Field2.getText().clear();
-                    }
-                });
-*/
 
 
             }
@@ -428,8 +309,7 @@ public class MainActivity extends AppCompatActivity {
                 int minute = calendar.get(Calendar.MINUTE);
 
 
-                //int work1=n+hour;
-                //int work2=minute+l;
+
                 if (getBac() >= .08) {
                     Intent i = new Intent(AlarmClock.ACTION_SET_ALARM);
                     i.putExtra(AlarmClock.EXTRA_MESSAGE, "Time til Sober");
@@ -439,8 +319,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Toast.makeText(getApplicationContext(), "You don't need to set an Alarm you are below the legal limit", Toast.LENGTH_LONG).show();
                 }
-//onClickSetAlarm(null);
-                //RegisterAlarmBroadcast();
+
 
 
             }
@@ -518,21 +397,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 break;
-            // Is the button now checked?
-            /*boolean checked = ((RadioButton) view).isChecked();
 
-            // Check which radio button was clicked
-            switch(view.getId()) {
-                case R.id.male:
-                    if (checked)
-                        this.male=true;
-                        break;
-                case R.id.female:
-                    if (checked)
-                        this.female=true;
-                        break;
-            }
-            */
 
         }
     }
@@ -692,17 +557,7 @@ public class MainActivity extends AppCompatActivity {
         alertDialogBuilder
                 .setMessage("This is app only provides estimates and does not give the 100% accurate result of your current Blood Alcohol Level. Click Ok to continue")
                 .setCancelable(false)
-                /*.setPositiveButton(, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        //don't open Dialog by next launch
-                        openDialog = false;
 
-                        // if this button is clicked, close
-                        // current activity
-                        MainActivity.this.finish();
-                    }
-                })
-                */
                 .setNegativeButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         // if this button is clicked, just close
