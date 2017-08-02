@@ -2,9 +2,8 @@
 
 The main source code is located in:GetSober/app/src/main/java/com/kharlmccatty/baccalculator/MainActivity.java
 
-![alt text](http://https://lh3.googleusercontent.com/ft0rwQD_1FmCFkiyWCXMdgD9blxJlYFmDCsFNvhAk18OxC8uIFBWN2KC3hOM8ZvpD60=h900-rw/to/img.png)
-https://lh3.googleusercontent.com/ft0rwQD_1FmCFkiyWCXMdgD9blxJlYFmDCsFNvhAk18OxC8uIFBWN2KC3hOM8ZvpD60=h900-rw
-
+![alt text](https://raw.githubusercontent.com/kharlm/GetSober/master/GetSober/screenshot.png)
+https://raw.githubusercontent.com/kharlm/GetSober/master/GetSober/screenshot.png
 Get Sober is a Blood Alcohol Content calculator that takes the number of drinks you've had and tell show long it will be before you are sober enough to legally drive. 
 
 It works by taking into account the User's weight, sex and number of drinks and calculate how drunk you are and gives you a timer
