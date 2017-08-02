@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "484683293045",
+    "firebase_url": "https://baccalculator-730ce.firebaseio.com",
+    "project_id": "baccalculator-730ce",
+    "storage_bucket": "baccalculator-730ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484683293045:android:3cb3776fd4a1c85f",
+        "android_client_info": {
+          "package_name": "com.kharlmccatty.GetSober"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484683293045-r3bq61tfs3vbspdtmemgut5qbnm6pvof.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kharlmccatty.GetSober",
+            "certificate_hash": "8CB2A72CF92E5400C5F0B234F790D9975290374E"
+          }
+        },
+        {
+          "client_id": "484683293045-5h8r2mc8grgj0s79f0teij3srs1lfquo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8y6HIs6JuYFIHpP9oVh0GXmZ0MdqILac"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484683293045-5h8r2mc8grgj0s79f0teij3srs1lfquo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
